@@ -1,0 +1,52 @@
+.container {
+    width: 100%; /*Postavlja širinu elementa na 100% širine roditeljskog elementa.*/
+    height: 100vh;  /*postavlja visinu elementa na 100% visine vidljivog dela prozora pretraživača (viewport-a).*/
+    background: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.calculator {
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px; /*ovo zaobljuje ivice*/
+   
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 8px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    cursor: pointer;
+    color: aliceblue;
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+ form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .display input{
+    text-align: right;
+    flex: 1; /*zauzima celu liniju*/
+    font-size: 45px;
+    box-shadow: none;
+
+}
+form input.jednako{
+    width: 145px;
+
+}
+form input.to{
+    width: 145px;
+}
